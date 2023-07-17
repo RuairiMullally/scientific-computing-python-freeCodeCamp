@@ -42,8 +42,14 @@ def arithmetic_arranger(problems, answers=False):
     line2 = line2 + "-" * cwidth + "    "
     line3 = line3 + f"{str(results[i]):>{cwidth}}    "
 
+  line0 = line0.rstrip()
+  line1 = line1.rstrip()
+  line2 = line2.rstrip()
+  line3 = line3.rstrip()
+
+
   if answers:
     return (line0 + '\n' + line1 + '\n' + line2 + '\n' + line3)
   else:
-    return (line0 + '\n' + line1 + '\n' + line2) 
+    return (line0 + '\n' + line1 + '\n' + line2)
     
