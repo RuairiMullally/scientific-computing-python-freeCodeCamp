@@ -1,7 +1,6 @@
 # scientific-computing-python-freeCodeCamp
 Certification Projects from fcc's Scientific Computing with Python course.
 
-# Project Description // taken from sfoteini https://github.com/sfoteini/sfoteini
 
 ### Assignment
 
